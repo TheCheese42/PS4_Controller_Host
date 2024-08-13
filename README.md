@@ -1,4 +1,7 @@
 # PS4_Controller_Host
+
+(Fork as an attempt to fix random errors)
+
 Allows ESP32 to communicate with PS4 controller (can be used to control robots and other devices)
 
 This is heavily based on the work of Albert III to connect a PS4 controller to an ESP32.
