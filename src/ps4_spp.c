@@ -122,6 +122,6 @@ void spp_deinit() {
 static void sppCallback(esp_spp_cb_event_t event, esp_spp_cb_param_t* param) {
   if (event == ESP_SPP_INIT_EVT) {
     ESP_LOGI(PS4_TAG, "ESP_SPP_INIT_EVT");
-    esp_bt_gap_set_scan_mode(ESP_BT_CONNECTABLE, ESP_BT_NON_DISCOVERABLE);
+    esp_bt_gap_set_scan_mode(ESP_BT_CONNECTABLE);
   }
 }
