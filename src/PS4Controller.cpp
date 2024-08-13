@@ -1,8 +1,6 @@
 #include "PS4Controller.h"
-#ifdef BT_ENABLED
 #include "esp_bt_defs.h"
 #include "esp_bt_main.h"
-#endif
 
 extern "C" {
 #include "esp_bt_device.h"
